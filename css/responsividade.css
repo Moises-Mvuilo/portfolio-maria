@@ -1,0 +1,133 @@
+@media only screen and (max-width: 320px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .interface {
+    margin: 0 1rem;
+    overflow: none;
+  }
+
+  header {
+    margin-top: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  ul {
+    gap: 0.5rem;
+    font-size: 1rem;
+    padding: 0rem;
+    font-weight: 500;
+  }
+
+  .content {
+  
+    flex-direction: column;
+    margin-bottom: -16rem;
+  }
+
+  section > img {
+    width: 100%;
+  }
+
+  .image {
+    margin-bottom: 2rem;
+    margin-top: -2rem;
+  }
+
+  .text > h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 0rem;
+    padding: 0rem;
+  }
+
+  .text > p {
+   text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0rem;
+    padding: 0rem;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    column-gap: 0rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .botao-1 {
+    margin-top: 3.5rem;
+  }
+
+  .icons {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3rem;
+    width: 16rem;
+    padding: 1rem;
+   
+  }
+
+  div > h4 {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+
+  .iconAndText {
+    flex-direction: column;
+  }
+
+  .allImage_1 {
+    flex-direction: column;
+  }
+
+  .allImage_1 > div {
+    width: 18rem;
+    outline: none;
+    text-align: center;
+  }
+
+  input {
+    width: 16rem;
+    height: 2rem;
+  }
+
+  input::placeholder {
+    font-size: 0.8rem;
+  }
+
+  .allImage_1 > div > button {
+    width: 6rem;
+    height: 2rem;
+    background: #1f7cff;
+    border: none;
+    border-radius: 3.2rem;
+    font-size: 0.8rem;
+  }
+
+  .textWork {
+    text-align: center;
+  }
+
+  .textWork > h3 {
+    font-size: 1.5rem;
+  }
+
+  .select {
+    flex-direction: column;
+  }
+
+  .select > a img {
+    margin: 8.7rem;
+  }
+}
